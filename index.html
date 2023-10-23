@@ -8,16 +8,17 @@
   <title>Portfolio</title>
 
   <link rel="stylesheet" href="assets/vendor/bootstrap-5.2.3-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
   <style>
     .nav-link.active {
       color: #20c997 !important;
     }
   </style>
-  <link rel="stylesheet" href="style.css" />
-  <script src="tet.js"></script>
+
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#nav-scroll">
+
+<body>
   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="nav-scroll">
     <div class="container">
       <a href="#" class="navbar-brand fw-bold">Portfolio</a>
@@ -33,10 +34,10 @@
             <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#resume" class="nav-link">Resume</a>
           </li>
           <li class="nav-item">
-            <a href="#certificate" class="nav-link">Certificate</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
           </li>
           <li class="nav-item">
             <a href="#contact" class="nav-link">Contact</a>
@@ -49,13 +50,14 @@
   <section id="home" class="d-flex min-vh-100 flex-column justify-content-center align-items-center">
     <h1 class="fw-bolder display-1 mb-3 nameText">Boy Sitorus</h1>
     <h6 class="fs-3 text-capitalize mb-4">Undergraduate Student</h6>
-    <a href="#about" class="btn rounded-pill button-custom">About Me</a>
+    <a href="#contact" class="btn rounded-pill button-custom">Hire me</a>
   </section>
 
   <section id="about" class="container py-5">
     <div class="text-center py-5">
       <h1 class="fw-bolder text-uppercase mb-5">about</h1>
-      <h3>I'm <span style="color: #20c997">Boy Sitorus</span></h3>
+      <h3>I'm <span style="color: #20c997">Boy Sitorus</span> based on <span style="color: #20c997">Porsea,
+          Indonesia</span></h3>
     </div>
     <div class="row">
       <div class="col-md-4 mb-3">
@@ -63,10 +65,19 @@
       </div>
       <div class="col-md-7 offset-lg-1">
         <p class="lh-lg">
-          I am a student majoring in informatics from the Del Institute of
-          Technology, currently I still have undergraduate status to be
-          precise still in 5th semester, and i don't have any work yet, but I
-          have an interest in web development, especially the back-end part.
+          I am a 20 year old student, currently studying at a campus called Institut Teknologi Del, Laguboti, Indonesia.
+          <br>
+          At this campus I majored in Informatics, I am currently in my fifth semester this year, as an informatics
+          student, of course I have a high enthusiasm for technology, especially I have great enthusiasm for web
+          development and cloud computing. <br>
+          I am someone who loves learning, especially learning new things related to the two technologies I just
+          mentioned. <br>
+          As for hobbies, I have had a hobby of playing games since I was little, and fun fact, i love technologies and
+          have high enthusiasm for its developments, because of this hobby.
+          At this moment I don't have any work yet, but I am determined to study hard and continue to grow, so that in
+          the
+          future I can achieve my dream of working as a web developer in well-known companies, especially in my country,
+          Indonesia.
         </p>
 
         <p class="fw-bold fs-4">My Skills:</p>
@@ -114,114 +125,307 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <h4>My Education</h4>
-        <div class="card mb-4" style="width: 100%;">
-          <span class="year-tag">2018-2021</span>
-          <div class="card-body">
-            <h4 class="card-title">Senior High School</h4>
-            <h6 class="subTitle">SMA Negeri 1 Siantar Narumonda</h6>
-            <p class="card-text">Science Student</p>
-          </div>
-        </div>
-        <div class="card mb-4" style="width: 100%;">
-          <span class="year-tag">2021-Current</span>
-          <div class="card-body">
-            <h4 class="card-title">Bachelor Degree</h4>
-            <h6 class="subTitle">Del Institute of
-              Technology</h6>
-            <p class="card-text">5th semester Informatics Student</p>
-          </div>
-        </div>
+
+
+
+
+  </section>
+
+  <section id="resume" class="py-5 bg-dark">
+    <div class="container justify-content-center align-items-center">
+      <div class="text-center text-white py-5">
+        <h2 class="fw-bolder text-uppercase">Resume</h2>
+        <p>below is my resume</p>
       </div>
-      <div class="col-12 col-md-6">
-        <h4>My Experience</h4>
-        <div class="card mb-4" style="width: 100%;">
-          <span class="year-tag">2022</span>
-          <div class="card-body">
-            <h4 class="card-title">IDG Committee</h4>
-            <h6 class="subTitle">Del Institute of Technology</h6>
-            <p class="card-text">Becoming Equipment Division Committee of IDG event at Del Institute of Technology</p>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3 class="text-white">My Education</h3>
+          <div class="card mb-4" style="width: 100%;">
+            <span class="year-tag">2015-2018</span>
+            <div class="card-body">
+              <h4 class="card-title">Junior High School</h4>
+              <h6 class="subTitle">SMP Swasta Yayasan Bonapasogit Sejahtera</h6>
+              <button class="btn btn-light button-custom show-modal" href="#myModal1">Show</button>
+              <div id="myModal1" class="modal-custom">
+                <div class="contentModal">
+                  <span class="btn btn-light button-custom close-modal">&times;</span>
+                  <h1>Junior High School - Student</h1>
+                  <p>I went to YBS junior high school, where I got a lot of general knowledge that my teacher taught me
+                  </p>
+                </div>
+              </div>
+              <div class="overlay"></div>
+
+            </div>
+          </div>
+          <div class="card mb-4" style="width: 100%;">
+            <span class="year-tag">2018-2021</span>
+            <div class="card-body">
+              <h4 class="card-title">Senior High School</h4>
+              <h6 class="subTitle">SMA Negeri 1 Siantar Narumonda</h6>
+              <button class="btn btn-light button-custom show-modal" href="#myModal2">Show</button>
+              <div id="myModal2" class="modal-custom">
+                <span class="btn btn-light button-custom close-modal">&times;</span>
+                <h1>Senior High School - Student</h1>
+                <p>I graduated from SMA Negeri 1 Siantar Narumonda, where at this school I studied a lot of things that
+                  were more towards science, at this school I gained a lot of experience and friends.</p>
+              </div>
+              <div class="overlay"></div>
+
+            </div>
+          </div>
+          <div class="card mb-4" style="width: 100%;">
+            <span class="year-tag">2021-Current</span>
+            <div class="card-body">
+              <h4 class="card-title">Bachelor Degree</h4>
+              <h6 class="subTitle">Del Institute of
+                Technology</h6>
+              <button class="btn btn-light button-custom show-modal" href="#myModal3">Show</button>
+              <div id="myModal3" class="modal-custom">
+                <span class="btn btn-light button-custom close-modal">&times;</span>
+                <h1>University - Student</h1>
+                <p>I study at the Del Technology Institute campus, I major in Informatics, Currently im in 5th Semester
+                </p>
+
+              </div>
+              <div class="overlay"></div>
+
+            </div>
           </div>
         </div>
-        <div class="card mb-4" style="width: 100%;">
-          <span class="year-tag">2022-2023</span>
-          <div class="card-body">
-            <h4 class="card-title">Research and Technology</h4>
-            <h6 class="subTitle">Informatics Community</h6>
-            <p class="card-text">Become a member of the research and technology division for Informatics Association of the
-              Del Institute of Technology</p>
+
+        <div class="col-12 col-md-6">
+          <h3 class="text-white">My Experience</h3>
+          <div class="card mb-4" style="width: 100%;">
+            <span class="year-tag">Mei 2020</span>
+            <div class="card-body">
+              <h4 class="card-title">JuaraGCP Season 3</h4>
+              <h6 class="subTitle">Google Developer Event</h6>
+              <button class="btn btn-light button-custom show-modal" href="#myModal4">Show</button>
+              <div id="myModal4" class="modal-custom">
+                <span class="btn btn-light button-custom close-modal">&times;</span>
+                <h1>JuaraGCP Season 3 - Participant</h1>
+                <div class="row mt-5">
+                  <div class="col-5">
+                    <img src="assets/img/gcp.jpg" alt="">
+                  </div>
+                  <div class="col-5">
+                    <p>This is an event organized by Google Developer, where at this event I as a participant will get
+                      access for a month using Google's GCP (Google Cloud Platform), to study and complete quests/labs
+                      provided by Google</p>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="overlay"></div>
+            </div>
           </div>
+          <div class="card mb-4" style="width: 100%;">
+            <span class="year-tag">Oct 2020</span>
+            <div class="card-body">
+              <h4 class="card-title">JuaraGCP Season 4</h4>
+              <h6 class="subTitle">Google Developer Event</h6>
+              <button class="btn btn-light button-custom show-modal" href="#myModal5">Show</button>
+              <div id="myModal5" class="modal-custom ">
+                <span class="btn btn-light button-custom close-modal">&times;</span>
+                <h1>JuaraGCP Season 4 - Participant</h1>
+                <div class="row mt-5">
+                  <div class="col-5">
+                    <img src="assets/img/gcp.jpg" alt="">
+                  </div>
+                  <div class="col-5">
+                    <p>This is an event organized by Google Developer, where at this event I as a participant will get
+                      access for a month using Google's GCP (Google Cloud Platform), to study and complete quests/labs
+                      provided by Google</p>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="overlay"></div>
+
+            </div>
+          </div>
+
+          <div class="card mb-4" style="width: 100%;">
+            <span class="year-tag">March 2021</span>
+            <div class="card-body">
+              <h4 class="card-title">JuaraGCP Crash Course</h4>
+              <h6 class="subTitle">Google Developer Event</h6>
+              <button class="btn btn-light button-custom show-modal" href="#myModal6">Show</button>
+              <div id="myModal6" class="modal-custom ">
+                <span class="btn btn-light button-custom close-modal">&times;</span>
+                <h1>JuaraGCP Crash Course - Participant</h1>
+                <div class="row mt-5">
+                  <div class="col-5">
+                    <img src="assets/img/gcp.jpg" alt="">
+                  </div>
+                  <div class="col-5">
+                    <p>This is an event organized by Google Developer, where at this event I as a participant will get
+                      access for a month using Google's GCP (Google Cloud Platform), to study and complete quests/labs
+                      provided by Google</p>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="overlay"></div>
+
+            </div>
+          </div>
+
+          <div class="card mb-4" style="width: 100%;">
+            <span class="year-tag">Sept 2022</span>
+            <div class="card-body">
+              <h4 class="card-title">IDG Committee</h4>
+              <h6 class="subTitle">Del Institute of Technology</h6>
+
+              <button class="btn btn-light button-custom show-modal" href="#myModal7">Show</button>
+              <div id="myModal7" class="modal-custom">
+                <span class="btn btn-light button-custom close-modal">&times;</span>
+                <h1>Inauguration and Graduation IT DEL - Commite</h1>
+                <div class="row mt-5">
+                  <div class="col-5">
+                    <img src="assets/img/Peralatan.png" alt="">
+                  </div>
+                  <div class="col-5">
+                    <p>This is an event organized by IT DEL, where this event is an inauguration ceremony for new
+                      students and a graduation ceremony for students who have graduated. I am on the committee for this
+                      event, specifically in the equipment division.</p>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="overlay"></div>
+
+            </div>
+          </div>
+
+          <div class="card mb-4" style="width: 100%;">
+            <span class="year-tag">Nov 2022</span>
+            <div class="card-body">
+              <h4 class="card-title">Gemastik XV</h4>
+              <h6 class="subTitle">Universitas Brawijaya</h6>
+              <button class="btn btn-light button-custom show-modal" href="#myModal8">Show</button>
+              <div id="myModal8" class="modal-custom ">
+                <span class="btn btn-light button-custom close-modal">&times;</span>
+                <h1>Gemastik XV CP - Participant</h1>
+                <div class="row mt-5">
+                  <div class="col-5">
+                    <img src="assets/img/Gemastic.jpg" alt="">
+                  </div>
+                  <div class="col-5">
+                    <p>This is an event held by Brawijaya University, where this event is an IT competition, where I
+                      took over as a participant in the Competitive Programming division</p>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="overlay"></div>
+
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
+    <center>
+      <a class="btn button-custom" href="assets/cv.pdf" download="cv.pdf">Download CV</a>
+    </center>
   </section>
 
-  <section id="portfolio" class="bg-dark py-5">
-    <div class="container">
-      <div class="text-center py-5 text-white">
+  <section id="portfolio" class="py-5">
+    <div class="container justify-content-center align-items-center">
+      <div class="text-center py-5">
         <h2 class="fw-bolder text-uppercase">My Portfolio</h2>
         <p>The following is a list of projects that I have worked on.</p>
       </div>
-      <div class="row pb-5">
-        <div class="col-md-6 col-lg-4 mb-4">
-          <img src="assets/img/lnf.jpg" alt="lost and found app pict" class="img-fluid img-thumbnail" />
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4 text-white">
-          <h5 style="color: #20c997;">Lost & Found</h5>
-          <p>Lost & Found, Is an desktop app for listing reports of lost or found items
-            especially at Del Institute of
-            Technology, this application was created using Java Swing and SQL.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="certificate" class="container py-5">
-    <div class="text-center py-5">
-      <h2 class="fw-bolder text-uppercase">Certificate</h2>
-      <p>Below are the certifications I have obtained</p>
+      <div class="custom-slider-container">
+        <div class="custom-slider">
+          <div class="custom-slide">
+            <div class="justify-content-center row pb-5">
+              <div class="col-md-6 col-lg-4 mb-4">
+                <img src="assets/img/lnf.jpg" alt="lost and found app pict" class="img-fluid img-thumbnail" />
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                <h5 style="color: #20c997;">Lost & Found</h5>
+                <p>Lost & Found, Is an desktop app for listing reports of lost or found items
+                  especially at Del Institute of
+                  Technology, this application was created using Java Swing and SQL.
+                  <a href="https://github.com/boysitorus/Lost-and-Found" target="_blank">view</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="custom-slide">
+            <div class="justify-content-center row pb-5">
+              <div class="col-md-6 col-lg-4 mb-4">
+                <img src="assets/img/soChat.jpg" alt="lost and found app pict" class="img-fluid img-thumbnail" />
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                <h5 style="color: #20c997;">SoChat</h5>
+                <p>SoChat, is an desktop app, developed using java swing and java socket, this app can make multi
+                  threading chating sistem, but only our local computer, not developed for online yet. but this
+                  application was created, to illustrate how chat applications such as WhatsApp, Messenger, and other
+                  chat
+                  applications can work, using a multi threading system.
+                  <a href="https://www.youtube.com/watch?v=DdHPeEO7_CY" target="_blank">view</a>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="custom-slide">
+            <div class="justify-content-center row pb-5">
+              <div class="col-md-6 col-lg-4 mb-4">
+                <img src="assets/img/itdel.png" alt="lost and found app pict" class="img-fluid img-thumbnail" />
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                <h5 style="color: #20c997;">Redesign HomePage ITDel</h5>
+                <p>in this project I designed the homepage page on the Del Institute of Technology website, this
+                  redesign
+                  was carried out based on the results of the usability heuristic analysis.
+                  <a href="https://www.figma.com/file/egfdsJz6ftA0SrygVbiGFS/11S21025_ReDesign_HomePage?type=design&t=wXXP2gnQgCuhFss9-6"
+                    target="_blank">view</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="custom-slide">
+            <div class="justify-content-center row pb-5">
+              <div class="col-md-6 col-lg-4 mb-4">
+                <img src="assets/img/Olis.jpg" alt="lost and found app pict" class="img-fluid img-thumbnail" />
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4">
+                <h5 style="color: #20c997;">Redesign HomePage OLIS</h5>
+                <p>in this project I designed the homepage page of Online System Library(OLIS) ITDel, this redesign
+                  was carried out based on the results of the usability heuristic analysis.
+                  <a href="https://youtu.be/oMnZKE30uHY" target="_blank">view</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button class="custom-slider-button custom-slider-button-next">&#8594;</button>
+          <button class="custom-slider-button custom-slider-button-prev">&#8592;</button>
+        </div>
+      </div>
+
+
+
     </div>
-    <div class="row pb-5">
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card">
-          <img src="assets/img/javascript_certi.png" alt="" class="card-img-top" />
-          <div class="card-body">
-            <h5 class="card-title text-center py-2">Basic JavaScript</h5>
-            <p class="card-text">
-              This course contains lessons about basic JavaScript, starting
-              from introduction, fundamentals, data structures, functions,
-              paradigms, and a little about nodeJS
-            </p>
-            <a href="https://www.dicoding.com/certificates/MEPJEW0RWX3V" target="_blank"
-              class="btn btn-light button-custom">View Certificate</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card">
-          <img src="assets/img/wd_certi.jpg" alt="" class="card-img-top img-fluid" />
-          <div class="card-body">
-            <h5 class="card-title text-center py-2">
-              Web Development Course
-            </h5>
-            <p class="card-text">
-              This course contains lessons about basic HTML, CSS, JavaScript,
-              ReactJS, MongoDB, and NodeJS, also a litle bit about Security
-              and Web3
-            </p>
-            <a href="https://www.udemy.com/certificate/UC-e0ffc84e-0691-4730-9f3a-d7a11b251c29/" target="_blank"
-              class="btn btn-light button-custom">View Certificate</a>
-          </div>
-        </div>
-      </div>
+    </div>
     </div>
   </section>
 
   <section id="contact" class="bg-dark py-5">
     <div class="container">
-      <div class="text-center py-5 text-white">
+      <div class="text-center text-white py-5">
         <h2 class="fw-bolder text-uppercase">Contact Me</h2>
         <p>Have any question?? You can contact me using this form below</p>
       </div>
@@ -229,8 +433,10 @@
 
     <div class="row">
       <div class="ms-lg-5 col-12 col-md-5 mb-3 text-white">
-        <h5>Follow me :</h5>
+        <h5>Find Me :</h5>
         <ul class="list-unstyled d-flex mt-5">
+          <li class="ms-3"><a class="link-light" target="_blank" href="https://wa.me/08973762521"><img
+                src="assets/telp.svg" width="75" height="75" alt=""></a></li>
           <li class="ms-3"><a class="link-light" target="_blank" href="https://www.linkedin.com/in/boyy-sitorus/"><img
                 src="assets/linkedin-svgrepo-com.svg" width="75" height="75" alt=""></a></li>
           <li class="ms-3"><a class="link-light" target="_blank" href="https://www.instagram.com/boyy.sitorus/"><img
@@ -240,30 +446,34 @@
           <li class="ms-3"><a class="link-light" target="_blank" href="mailto:sitorusboy0123@gmail.com"><img
                 src="assets/gmail-svgrepo-com.svg" width="75" height="75" alt=""></a></li>
         </ul>
+
+
       </div>
 
       <div class="col-md-6 mb-3">
-        <form action="" class="text-white" onsubmit="return validate(this);">
+        <form action="" class="text-white " id="formContact" onsubmit="return validateForm(this);">
           <div class="mb-3">
             <label for="nameField" class="form-label">Your Name</label>
-            <input type="text" class="form-control" name="nameField" />
+            <input type="text" class="form-control" name="nameField" id="nama" />
+            <div class="invalid-feedback" id="namaError">Error</div>
           </div>
           <div class="mb-3">
             <label for="emailField" class="form-label"> Your Email</label>
-            <input  class="form-control" name="emailField" />
+            <input class="form-control" name="emailField" id="email" />
+            <div class="invalid-feedback" id="emailError">Error</div>
           </div>
           <div class="mb-3">
             <label for="subjectField" class="form-label"> Your Subject</label>
-            <input type="text" class="form-control" name="subjectField"/>
+            <input type="text" class="form-control" name="subjectField" id="subject" />
+            <div class="invalid-feedback" id="subjectError">Error</div>
           </div>
           <div class="mb-3">
             <label for="messageField" class="form-label"> Your Message</label>
-            <textarea name="messageField" cols="30" rows="10" class="form-control"></textarea>
+            <textarea name="messageField" cols="30" rows="10" class="form-control" id="pesan"></textarea>
+            <div class="invalid-feedback" id="pesanError">Error</div>
           </div>
           <div class="text-end">
-            <button type="submit" class="btn btn-lg button-custom">
-              Send Message
-            </button>
+            <input class="btn btn-lg button-custom" type="submit" value="Submit Message " />
           </div>
         </form>
       </div>
@@ -280,6 +490,7 @@
   </footer>
 
   <script src="assets/vendor/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

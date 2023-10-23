@@ -5,9 +5,13 @@
   font-weight: 500;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .nameText {
-  width: 25%;
-  border-right: 2px solid;
+  width: 32%;
+  border-right: 10px solid;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 2s steps(11), cursor 0.4s step-end infinite alternate;
@@ -27,7 +31,7 @@
 }
 
 #home{
-  background-image: url('assets/img/hero.jpeg');
+  background-image: url('assets/img/bg/hero-1.jpeg');
   background-repeat: no-repeat;
   background-size:cover;
   color: #f0f0f0;
@@ -98,4 +102,120 @@
 
 .subTitle{
   color: #20c997;
+}
+
+
+.custom-slider-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+.custom-slider {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;  
+  border-radius: 15px;
+}
+
+
+.custom-slide {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.custom-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-slider-button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color:#20c997;
+  font-size: 18px;
+}
+
+.custom-slider-button:active {
+  transform: scale(1.1);
+}
+
+.custom-slider-button-prev {
+  top: 45%;
+  left: 2%;
+  
+}
+
+.custom-slider-button-next {
+  top: 45%;
+  right: 2%;
+  
+}
+
+.card-body .button-custom{
+  min-height: 0;
+  padding: 5px 20px;
+}
+
+.modal-custom .button-custom{
+  min-height: 0;
+  
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  background: none;
+}
+
+
+.modal-custom {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  z-index: -10;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.modal-custom img{
+  
+  width: 300px;
+  height: 250px;
 }
